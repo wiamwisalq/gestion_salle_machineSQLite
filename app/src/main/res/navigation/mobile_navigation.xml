@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sqlitesallesmachines.ui.home.HomeFragment"
+        android:label="Accueil"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_salle"
+        android:name="com.example.sqlitesallesmachines.ui.salle.SalleFragment"
+        android:label="Salle"
+        tools:layout="@layout/fragment_salle" />
+
+    <fragment
+        android:id="@+id/nav_machine"
+        android:name="com.example.sqlitesallesmachines.ui.machines.MachineFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_machine" />
+    <fragment
+        android:id="@+id/nav_Etudiant"
+        android:name="com.example.sqlitesallesmachines.ui.etudiant.EtudiantFragment"
+        android:label="etudiant"
+        tools:layout="@layout/etudiant_fragment" />
+
+</navigation>

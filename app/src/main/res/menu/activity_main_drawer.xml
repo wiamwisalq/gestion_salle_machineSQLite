@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="accueil" />
+        <item
+            android:id="@+id/nav_salle"
+            android:icon="@drawable/meeting"
+            android:title="Salles" />
+        <item
+            android:id="@+id/nav_machine"
+            android:icon="@drawable/machine2"
+            android:title="Machines" />
+        <item
+            android:id="@+id/nav_Etudiant"
+            android:icon="@drawable/machine2"
+            android:title="Etudiants" />
+
+    </group>
+</menu>

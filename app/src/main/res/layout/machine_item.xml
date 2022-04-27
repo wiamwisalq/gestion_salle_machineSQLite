@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_margin="10dp"
+    android:background="#E2DDE3"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/reference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/handColor"
+        android:fontFamily="@font/f1"
+        android:text="Reference : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/marque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reference"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/f1"
+        android:text="Marque : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/handColor"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/salle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/marque"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/f1"
+        android:text="Salle : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/handColor"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/idm"
+        android:visibility="gone"
+        android:layout_above="@+id/marque"
+        android:layout_toRightOf="@+id/marque"
+        android:layout_toEndOf="@+id/marque" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/ids"
+        android:visibility="gone"
+        android:layout_above="@+id/marque"
+        android:layout_toRightOf="@+id/marque"
+        android:layout_toEndOf="@+id/marque" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="51dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/swipe" />
+
+
+</RelativeLayout>
